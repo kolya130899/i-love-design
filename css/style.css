@@ -30,9 +30,64 @@
 	display: block;
 	padding-top: 185px;
 }
+.about{
+	box-sizing: border-box;
+	display: block;
+	width: 860px;
+	font-size: 30px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 95px;
+}
+main[role="main"]{
+	color: #464b4f;
+	display: block;
+	box-sizing: border-box;
+}
+#down{
+	display: block;
+	box-sizing: border-box;
+	width: 800px;
+	font-size: 80px;
+	margin: 0 auto;
+	padding-top: 125px;
+	text-align: center;
+}
+div{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 300px;
+	margin: 0 auto;
+	margin-right: 20px;
+}
+div > span{
+	font-size: 18px;
+	opacity: 0.5;
+}
+div > h2{
+	font-size: 18px;
+}
+.info{
+	display: block;
+	box-sizing: border-box;
+	width: 970px;
+	padding-top: 100px;
+	padding-bottom: 125px;
+	margin: 0 auto;
+}
 body{
 	font-family: Segoe UI;
 }
+
+
+
+
+
+
+
+
+
+
 
 /* Typography */
 a,
